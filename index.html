@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title id="title"></title>
+        <link id="favicon" rel="icon" href=''>
+        <link rel="stylesheet" href="lib/default.css" media="screen">
+        <link rel="stylesheet" href="css/main.css" media="screen">
+        <link rel="stylesheet" href="css/setting.css" media="screen">
+        <script type="text/javascript" src='fiber.js'></script>
+        
+         <script type="text/javascript" src='helpers.js'></script>
+         <script type="text/javascript" src='optionTypes.js'></script>  
+ <script type="text/javascript" src='settingsManifest.js'></script>
+ <script type="text/javascript" src='slick-settings.js'></script> 
+        <!--<script type="text/javascript" src='slick-settings.js'></script>!-->
+    </head>
+        <body class="no-select">
+        <div id="sidebar" class="fancy">
+            <img id="icon" src="" alt=""><h1 id="settings-label"></h1>
+            <div id="tab-container">
+                <div id="search-container" class="tab">
+                    <input id="search" type="search" placeholder="">
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div id="search-result" class="tab-content">
+                <h2 id="search-label"></h2>
+                <div class="setting bundle description" id="Nothing_Found">
+                    <div class="setting container description">
+                        <p class="setting element description" id="Nothing_Found_Message"></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- About Page !-->
+        <div id="about-page" class="tab-content">
+            <h2 >Slick Settings</h2>
+            <div>
+				<br />
+                This is a continuation of Fancy Settings by Frank Kohlhepp.<br />
+                I wanted to be able to change/add things and found it to be a little hard or wrong.<br />
+                Adding things like new option types required changing the main source and that felt wrong.<br />
+				I assumed that due to it being Class based I could just extend and add new types, but couldn't.<br />
+				I also didn't like it being dependent on MooTools.<br />
+				Plus I wanted a few other things different like the manifest version, using Chromes i18n <br />
+				, using Chromes storage api, different lay out, etc, so made this as an exercise for myself.<br />
+				But as usual I lost interest.  I thought two people would be interested in it but when both<br />
+				showed no interest I kinda lost interest and now I fear it will be lost in my hard drive with <br />
+				all my other half finished stuff so decided to put it on GitHub in the hope of not loosing it.<br />
+				Although this can do everything Fancy Setting could do, I still feel that its not finished and <br />
+				wont be until it can upgrade settings gracefully and prolly have an inbuilt editor. <br />
+				One day Ill prolly come back and add those things, but if you feel like doing it then go ahead.<br />
+				PAEz<br />
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,141 @@
+{
+	/* Web Store */
+
+	"application_title": {
+		"message": "Slick-Settings",
+		"description": "The title of the application, displayed in the web store."
+	},
+	"application_description": {
+		"message": "This is the minimal set of data required to upload a localized hosted application to the web store.",
+		"description": "The description of the application, displayed in the web store."
+	},
+
+	/* Settings Title */
+
+	"_settings_title": {
+		"message": "Settings",
+		"description": "The title of the settings page."
+	},
+
+	/* Search */
+
+	"_search_title": {
+		"message": "Search",
+		"description": "The title of the search."
+	},
+	"_search_placeholder": {
+		"message": "search...",
+		"description": "The text used as the placholder for the searchs input."
+	},
+
+	/* Tabs */
+
+	"Information": {
+		"message": "Information"
+	},
+	"Details": {
+		"message": "Details"
+	},
+	"New": {
+		"message": "New"
+	},
+	"About": {
+		"message": "About"
+	},
+
+	/* Groups */
+
+	"Information_Login": {
+		"message": "Login"
+	},
+	"Information_Logout": {
+		"message": "Log Out"
+	},
+	"Details_Sound": {
+		"message": "Sound"
+	},
+	"Details_Food": {
+		"message": "Food"
+	},
+	"New_DatePicker": {
+		"message": "Date Picker"
+	},
+	"New_ColorPicker": {
+		"message": "Color Picker"
+	},
+	"New_NumberPicker": {
+		"message": "Number Picker"
+	},
+
+	/* settings */
+
+	// username
+	"Information_Login_username_label": {
+		"message": "User Name"
+	},
+	"Information_Login_username_holder": {
+		"message": "Enter your user name..."
+	},
+	// password
+	"Information_Login_password_label": {
+		"message": "Password"
+	},
+	"Information_Login_password_holder": {
+		"message": "Enter your password..."
+	},
+	// description
+	"Information_Login_myDescription_text": {
+		"message": "Heres where you put the description.zzzzz <br />
+		And some more text..blah <br />
+		blah <br />
+		Ive still got no idea how I should do the css for this bit :("
+	},
+	// enable login
+	"Information_Logout_enableLogin_label": {
+		"message": "Enable LogIn/LogOut"
+	},
+	// logout
+	"Information_Logout_logOutButton_label": {
+		"message": "Disconect"
+	},
+	// notification volume
+	"Details_Sound_notiVolume_label": {
+		"message": "Notification volume:"
+	},
+	// sound volume
+	"Details_Sound_soundVolume_label": {
+		"message": "Sound volume:"
+	},
+	"Details_Food_myPopupButton_label": {
+		"message": "Soup 1 should be:"
+	},
+	"Details_Food_myPopupButton_Hot": {
+		"message": "Hot!!"
+	},
+	"Details_Food_myPopupButton_Hot_hot_text": {
+		"message": "Very hot"
+	},
+	"Details_Food_myPopupButton_Hot_medium_text": {
+		"message": "Medium"
+	},
+	"Details_Food_myPopupButton_Cold_cold_text": {
+		"message": "Cold"
+	},
+	"Details_Food_myPopupButton_NoGroup_groupless1_text": {
+		"message": "Not in a group"
+	},
+	"Details_Food_myPopupButton_NoGroup_groupless2_text": {
+		"message": "Neither is this"
+	},
+	// food - listbox
+	"Details_Food_myListBox": {
+		"message": "Soup 2 should be:"
+	},
+	// food - description
+	"Details_Food_myDescriptionOfFood_label": {
+		"message": "Describe the food:"
+	},
+	"Details_Food_myDescriptionOfFood_holder": {
+		"message": "Describe what you thought of the food..."
+	}
+}
